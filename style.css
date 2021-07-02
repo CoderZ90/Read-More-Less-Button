@@ -1,0 +1,54 @@
+/* Font used is - Poppins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  min-height: 100vh;
+  background: #6200ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+.box {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  max-width: 540px;
+  width: 100%;
+}
+header {
+  font-size: 1.8rem;
+}
+header h2 {
+  color: #6200ff;
+  font-weight: 600;
+}
+.para {
+  margin-top: 12px;
+}
+.text {
+  font-size: 18px;
+  transition: 0.4s ease;
+}
+.block2 {
+  display: none;
+}
+.block2.hide {
+  display: block;
+}
+button {
+  margin-top: 20px;
+  background: #6200ff;
+  color: #fff;
+  padding: 12px 40px;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer
+}

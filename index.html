@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- Coding By CodingFire - youtube.com/CodingFire -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Read More - Read Less Button | Javascript</title>
+  </head>
+  <body>
+      <div class="box">
+        <header><h2>Read More Button</h2></header>
+        <div class="para">
+          <p class="text">
+            <span class="block1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, laborum illum, qui reiciendis optio, maiores<span>
+            <span class="block2"> magnam nihil ad quidem ut repellendus consequatur fuga dolores. Deserunt aperiam sit optio numquam, blanditiis!</span>
+          </p>
+        </div>
+        <button class="btn">Click Me</button>
+      </div>
+
+    <script>
+      const block2 = document.querySelector('.block2');
+      const button = document.querySelector('.btn');
+      button.addEventListener('click', () => {
+        block2.classList.toggle('hide');
+      });
+    </script>
+
+  </body>
+</html>
